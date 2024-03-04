@@ -1,0 +1,254 @@
+body{
+    max-width: 75%;
+    width: 1440px;
+    margin: 30px auto;
+}
+
+.site-logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.site-logo img {
+    width: 40px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.site-logo span {
+    color: orangered;
+}
+nav .site-logo h1 {
+    font-size: 30px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menubar ul {
+    display: flex;
+}
+nav .menubar li {
+    list-style: none;
+}
+nav .menubar a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: black;
+    font-size: 30px;
+}
+
+.banner-background {
+    background-image: url('./Images/group\ 13.png');
+   background-repeat: no-repeat;
+   background-position: fixed;
+   background-color: rgba(26, 17, 17, 0);
+    background-size: 1170px 500px;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.banner {
+    width: 800px;
+    height: 280px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 200px;
+    color: white;
+   
+
+}
+
+.input {
+    background-color: rgba(255, 255, 255, 0.35);
+    padding: 30px;
+    justify-content: center;
+    
+}
+
+.popular-tour {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.popular-tour-description {
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-right: 80px;
+
+}
+.btn-primary {
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 18px 15px;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+p {
+    font-size: 20px;
+    line-height: 25px;
+}
+small {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.destination-images-two
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.destination-images-three
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.destination-images-last
+{
+    display: flex;
+    justify-content: space-between;
+}
+.two-features {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.destination {
+    width: 50%;
+    margin: auto;
+   text-align: center;
+   margin-bottom: 80px;
+   margin-top: 150px;
+}
+.choose-us {
+    width: 50%;
+    margin: auto;
+   text-align: center;
+   margin-top: 100px;
+
+}
+.handpicked {
+    background-color: rgb(234, 255, 248);
+    padding: 30px;
+    margin-right: 35px;
+    width: 570px;
+    height: 270px;
+    border-radius: 10px;
+
+  
+}
+.service {
+    background-color: rgb(245, 255, 234);
+    padding: 30px;
+    margin-left: 35px;
+    border-radius: 10px;
+    width: 570px;
+    height: 270px;
+}
+
+.guarantee {
+background-color: rgb(255, 234, 239);
+margin-top: 50px;
+justify-content:space-around;
+align-items:center;
+margin-left: 300px;
+margin-right: 300px;
+padding: 30px;
+border-radius: 10px;
+width: 570px;
+height: 270px;
+}
+
+.deal-and-discount-text {
+    margin-top: 150px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.perfect-place {
+    display: flex;
+    margin-top: 100px;
+   align-items: center;
+   justify-content: space-around;
+
+}
+
+.perfect-place-description {
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-right: 50px;
+}
+
+.mountain-in-bangladesh h2 {
+    text-align: center;
+   
+}
+.mountain-in-bangladesh img {
+    width: 100%;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.newsletter-form {
+    border: 2px solid orangered;
+    border-radius: 10px;
+    padding: 20px;
+    vertical-align: middle;
+}
+.save-up-section {
+    position: absolute;
+    right: 500px;
+    background-color: orangered;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    justify-content: center;
+    border: 0;
+    border-radius: 10px;
+    padding: 15px 10px;
+    
+}
+.social-icon {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.footer{
+
+text-align: center;
+padding: 100px;
+margin-top: 80px;
+background-color: rgb(218, 218, 218);
+border-radius: 10px;
+}
+  .footer *{
+    margin-bottom: 20px;
+  }
+  .footer-site-logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .footer-site-logo img {
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
